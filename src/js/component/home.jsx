@@ -3,7 +3,7 @@ import React, { useEffect, useState } from "react";
 const Home = () => {
     const [inputValue, setInputValue] = useState("");
     const [todos, setTodos] = useState([]);
-    const username = "yourusername"; // replace this with your actual username
+    const username = "notaustindaniels";
 
     // Fetch the initial todo list from the server when the component mounts
     useEffect(() => {
